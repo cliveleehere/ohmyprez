@@ -1,3 +1,5 @@
+put any local settings in ~/.profil
+
 Prezto — Instantly Awesome Zsh
 ==============================
 
