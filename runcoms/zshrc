@@ -5,9 +5,17 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
+POWERLEVEL9K_DIR_HOME_FOREGROUND="194"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="194"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="194"
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 # Customize to your needs...
+
+source ~/.profile
