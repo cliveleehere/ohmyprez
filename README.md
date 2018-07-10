@@ -1,4 +1,5 @@
-put any local settings in ~/.profile
+Put any local non-zsh settings in ~/.profile
+Also, the powerlevel9k theme uses powerline font
 
 Prezto — Instantly Awesome Zsh
 ==============================
