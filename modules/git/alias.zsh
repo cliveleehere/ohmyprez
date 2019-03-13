@@ -150,7 +150,9 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
 
   # Push (p)
   alias gp='git push'
-  alias gpb='git push origin HEAD:refs/publish/"$(git-branch-current)"'
+#  alias gpb='git push origin HEAD:refs/publish/"$(git-branch-current)"'
+  alias gpb='git push --set-upstream origin "$(git-branch-current)"'
+  alias gpf='git push --force'
   # alias gpp='git pull origin "$(git-branch-current 2> /dev/null)" && git push origin "$(git-branch-current 2> /dev/null)"'
 
   # Rebase (r)
@@ -159,6 +161,8 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias grc='git rebase --continue'
   alias gri='git rebase --interactive'
   alias grs='git rebase --skip'
+  alias gri2='git rebase --interactive HEAD~2'
+  alias gri3='git rebase --interactive HEAD~3'
 
   # Stash (st)
   alias gst='git stash'
