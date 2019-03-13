@@ -79,8 +79,9 @@ export FLX_TARGET=Android
 
  
 #Android requires JDK8
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home
- 
+#export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home
+export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home
+
 # This export of SECURITY_CORE_PATH tells the makefiles where it
 # can find the security project in order to build the last version
 # of the library.
@@ -89,3 +90,6 @@ export SECURITY_CORE_PATH=$HOME/Projects/security
 # may or may not need these. may need to download ndk directly from website
 # export ANDROID_NDK=$HOME/Library/Android/sdk/ndk-bundle/android-ndk-r11c
 # may need to add the ndk directory to PATH
+
+alias c="/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code"
+alias s="/usr/local/bin/studio"
