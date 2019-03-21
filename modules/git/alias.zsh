@@ -43,6 +43,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   alias gc='git commit --verbose'
   alias gca='git commit --ammend'
   alias gco='git checkout'
+  alias gcaa='git commit -a --amend'
   
   # Diff (d)
   alias gd='git diff'
